@@ -29,6 +29,6 @@ func main() {
 	common.Init()
 	handler.InitExtensions()
 	cmd.PersistentFlags().StringVar(&proxies, "proxies", "", "本地代理 proxies")
-	cmd.PersistentFlags().IntVar(&port, "port", 8080, "服务端口 port")
+	cmd.PersistentFlags().IntVar(&port, "port", 7860, "服务端口 port")
 	_ = cmd.Execute()
 }
